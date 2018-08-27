@@ -28,7 +28,7 @@ http://localhost:8000/atm/withdraw/<amount>
 
 Replace the amount with the amount you want to withdraw.
 
-To run the tests. make sure you are in project directory and run
+To run the tests, make sure you are in project directory and run
 
 ```
 $ cargo test
