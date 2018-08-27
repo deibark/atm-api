@@ -1,0 +1,14 @@
+[package]
+name = "atm-api"
+version = "0.1.0"
+authors = ["Deividas Barkauskas <deividas.barkauskas@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.16"
+rocket_codegen = "0.3.16"
+
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["json"]
